@@ -1,0 +1,57 @@
+
+Steps:
+1)
+ Double click on ‘State’ field under data.
+ Under Map tab click, edit locations and select ‘United States’.
+ Drag and drop ‘Total’ to label and color under marks section.
+ Select ‘Sum(total)’, right click, format, then under pane, go to default,
+under numbers, go to currency(custom), decimal place to 1, display units
+in Millions.
+ Rename the worksheet as ‘Map’.
+
+2)
+ Drag and drop ‘Total’ to rows.
+ Convert month from string to date, by right click, then change data type
+and drag to column.
+ Drag and drop ‘Total’ to label under marks section.
+ Under marks, select sum(total), right click, format, then under pane, go to
+default, under numbers, go to currency(custom), decimal place to 1, display
+units in Millions.
+ Right Click on Month in columns and select Month i.e. continuous.
+ Rename the worksheet as ‘Line Chart’.
+
+3)
+ Drag and drop ‘Region’ to column and ‘Total’ to rows.
+ Make a pie chart, selecting under ‘Show Me’.
+ Drag and drop ‘Region’ & ‘Total’ to label under marks section.
+ In label, sum(total) right click, quick table calculation, percent of total.
+ Create calculated field, rename to ‘Zero Axis’, write code as 0, then ok.
+ Drag and drop ‘Zero Axis’ twice to rows.
+ Then under marks, two fields of Zero Axis will be present, go to second,
+remove all fields, change the color to white then increase the size in 1st,
+decrease in 2nd Zero Axis.
+ Right click on second Zero Axis in rows, then click dual axis and select
+Entire View in Fit tab.
+ Rename the worksheet as ‘Donut Chart’.
+
+4)
+ Drag and drop ‘Category’ to rows shelf.
+ Create 2 calculated fields ‘Female’ and ‘Male’.
+ For female revenue, Code is – if [Gender] = ‘F’ then [Total]end - Create
+same for male revenue by changing ‘F’ to ‘M’.
+ Drag and drop ‘Female’ and ‘Male’ to columns shelf.
+ Drag and drop ‘Zero axis’ between female and male revenue in columns.
+ Select Zero Axis under Marks Section, Select Text in place of automatic
+and Drag Category to text.
+ Edit the Female Axis and select reversed.
+ Sort the Category and select entire view in fit tab, then disable show header
+in Y axis.
+ Rename the ‘Zero Axis’ as ‘Category’ by editing, and remove 0 (tick tab).
+ Rename the worksheet as ‘Butterfly Chart’.
+
+5)
+ Click on ‘New Dashboard’ button in the bottom left corner of the
+Tableau window.
+ Select floating windows under Objects, in Dashboard.
+ Drag all the worksheets and drop them in the dashboard.
+ Rearrange all the worksheets, once all the worksheets are added.

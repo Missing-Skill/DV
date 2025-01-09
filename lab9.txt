@@ -1,0 +1,50 @@
+Steps:
+1)
+ Right click on the ‘Age’ tab and select Create and select “Bins” in it.
+ Rename it to ‘Age(bin)’ and change the bin size to 3 and save it.
+ Drag ‘Age(bin)’ to Columns and drag the ‘Employee Count’ to Rows.
+ Drag the ‘Employee Count’ on the label option under the Marks dropdown.
+ Rename the worksheet to ‘Bin’.
+
+2)
+ Drag and drop ‘Job Role’ to Rows.
+ Drag and drop ‘Job Satisfaction’ to the Columns make it discrete and select
+dimension.
+ Under the Show Me change the chart type to Highlight Table.
+ Drag and drop ‘Employee Count’ to Color and Label.
+ Rename the worksheet to ‘Highlight Table’
+
+3)
+ Drag and drop ‘Job Role’ to Rows.
+ Drag and drop ‘Job Satisfaction’ to the Columns make it discrete and select
+dimension.
+ Under the Show Me change the chart type to Highlight Table.
+ Drag and drop ‘Employee Count’ to Color and Label.
+ Rename the worksheet to ‘Highlight Table’.
+ Drag and drop ‘Education Field’ to Rows.
+ Create a calculated field ‘Attrition Count’ with the formula -
+IF [Attrition] = ‘Yes’ THEN 1 ELSE 0 END.
+ Drag and drop ‘Attrition Count’ to Columns.
+ Drag and drop Attrition count to label option under marks dropdown.
+ Rename the worksheet to ‘Horizontal Bar Chart’.
+
+4)
+ Drag and drop ‘Age Group’ to Columns.
+ Create a pie chart by changing the mark type from automatic to Pie and
+select entire view in fit tab.
+ Double click on the empty space in row tab and type 0 and press enter.
+ Hold ctrl and drag and drop the SUM (0) beside it in the row tab.
+ Drag and drop ‘Gender’ to color under marks section.
+ Drag and drop ‘Attrition Count’ to Angle and Label.
+ Remove all the tabs under the SUM (0)(2) dropdown and change the color
+to white.
+ Right click on second SUM (0) in row and select ‘Dual Axis’.
+ Vary the size of both the circles to make it look like donut.
+ Rename the worksheet to ‘Donut chart’.
+
+5)
+ Click on ‘New Dashboard’ button in the bottom left corner of the
+Tableau window.
+ Select floating windows under Objects, in Dashboard.
+ Drag all the worksheets and drop them in the dashboard.
+ Rearrange all the worksheets, once all the worksheets are added.

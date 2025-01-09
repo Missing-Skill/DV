@@ -1,0 +1,36 @@
+Steps:
+1)
+ Drag the ‘Borough’ field to the columns shelf.
+ Drag ‘Measure Values’ or ‘Count’ to the rows.
+ Select ‘Bar Chart’ under ‘Show me’ section.
+ Sort the Bar Chart in descending order with Sort By as ‘Field’.
+ Rename the worksheet as ‘Bar Chart’.
+
+
+2)
+ Drag and drop the ‘Date of incident’ field to the column.
+ Drag the ‘Date of incident’ field to the column field it automatically
+selects quarter.
+ Drag and drop ‘Sheet1(Count)’ field to the rows.
+ Rename the worksheet as ‘Line Chart – 1’.
+
+3)
+>Create a line chart by following the previous sub-question.
+ Right click on ‘Date of incident’ field in column & select ‘Month’.
+ Now, right click on any one label in X-axis, then go to format.
+ Under header, go to default, then select dates.
+ Select first letter under dates.
+ Rename the worksheet as ‘Line Chart – 2’.
+
+4)
+ Drag & drop all fields one by one except ‘Date’ & ‘Year’ to marks
+section.
+ Click on ‘Show Me’ and select the tree maps chart.
+ Rename the Worksheet as ‘Tree Map’.
+
+5)
+ Click on ‘New Dashboard’ button in the bottom left corner of the
+Tableau window.
+ Select floating windows under Objects, in Dashboard.
+ Drag all the worksheets and drop them in the dashboard.
+ Rearrange all the worksheets, once all the worksheets are added.

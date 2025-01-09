@@ -1,0 +1,44 @@
+Steps:
+1)
+ Drag and drop ‘Order Date’ and ‘Category’ to columns.
+ Drag and drop ‘Sales’ to rows.
+ Drag and drop ‘Profit’ to color and label in marks section.
+ Under marks, select sum(profit) of label, right click, format, then under
+pane, go to default, under numbers, go to currency(custom), decimal place
+to 1, display units in Thousands(K).
+ Drag & drop ‘Region’ to rows before sales and select entire view in fit tab.
+ Rename the worksheet as ‘Bar Chart – 1’.
+
+2)
+ Drag ‘Order Date’ and ‘Category’ and ‘Sub-Category’ to columns.
+ Drag and drop ‘Sales’ to rows.
+ Right click on Year (Order Date) in columns, select filter and select only
+2022 and 2023.
+ Drag and drop ‘Profit’ to color and label in marks section.
+ Under marks, select sum(profit) of label, right click, format, then under
+pane, go to default, under numbers, go to currency(custom), decimal place
+to 1, display units in Thousands (K).
+ Rename the worksheet as ‘Bar Chart – 2’.
+
+3)
+ Drag and drop ‘Category’ field to rows and add ‘Sub-Category’ also.
+ Drag and drop ‘Profit’ to text under marks section.
+ Select Horizontal bars under show me.
+ Drag and drop ‘Profit’ to colour under marks section.
+ Rename the worksheet as ‘Horizontal Bars’.
+
+4)
+ Drag and drop the ‘State/Province’ field to Details under marks section.
+ Under Map tab click, edit locations and select ‘United States’.
+ Drag and drop ‘Profit’ to size and label under marks section.
+ Select ‘Sum (Profit)’, right click, format, then under pane, go to default, under
+numbers, go to currency(custom), decimal place to 1, display units in
+Thousands (K).
+ Rename the worksheet as ‘Map’.
+
+5)
+ Click on ‘New Dashboard’ button in the bottom left corner of the
+Tableau window.
+ Select floating windows under Objects, in Dashboard.
+ Drag all the worksheets and drop them in the dashboard.
+ Rearrange all the worksheets, once all the worksheets are added.

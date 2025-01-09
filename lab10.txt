@@ -1,0 +1,50 @@
+Steps:
+1)
+ Drag and drop ‘Type’ to Color.
+ In the “Marks" section, select Pie from the drop-down list in place of automatic.
+ Drag and drop ‘Title’ to Size.
+ Right click on 'Title' in Marks shelf, click on measure select Count and Percent
+of total under Quick table calculation.
+ Drag ‘Type’ and ‘Title’ from marks section using control and drop to label.
+ Create calculated field called ‘Zero Axis’.
+ Drag it twice to rows shelf.
+ Then under Marks, two fields of Zero Axis exist go to second one - remove all
+fields, change colour to white and decrease its size and also increase the size of
+first one.
+ Right click on the second ‘Zero Axis’ and select ‘Dual axis’.
+ Rename the worksheet as ‘Donut Chart’.
+
+2)
+ Drag and drop ‘Release year’ and ‘Show ID’ to Columns and rows shelf
+respectively.
+ Right click on ‘Show ID’ in rows shelf, click on measure select Count
+(distinct)
+ In the “Marks” section, select area from the drop-down list in place of
+automatic.
+ Drag and drop ‘Type’ to colour.
+ Drag and drop ‘Type’ to Label.
+ Rename the worksheet as ‘Area Chart’.
+
+3)
+ Drag “Listed In" and "Show ID" to rows and Column shelf respectively.
+ Right click on "Show ID” then go to Measure → Count (distinct)
+ Drag 'Listed In' to filter and edit it Accordingly to get top 10 Genres and
+sort them.
+ Drag and drop "Listed In" to colour.
+ Drag and drop “Measure Values” to label.
+ Rename the worksheet as ‘Bar Chart’.
+
+4)
+ Double Click on country.
+ Drag "Country" to filters and remove null values.
+ Drag Show Id to Text, Right click on "Show ID” then go to Measure →
+Count (distinct).
+ Hold ctrl, drag and drop the Show Id to Label.
+ Rename the worksheet as ‘Map’.
+
+5)
+ Click on ‘New Dashboard’ button in the bottom left corner of the
+Tableau window.
+ Select floating windows under Objects, in Dashboard.
+ Drag all the worksheets and drop them in the dashboard.
+ Rearrange all the worksheets, once all the worksheets are added.
